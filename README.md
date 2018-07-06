@@ -1,21 +1,11 @@
-# EctoQueries
+# Composing Ecto Queries
 
-**TODO: Add description**
+This is a sample application that I built while writing a blog post about Composing Ecto Queries.
 
-## Installation
+It's not very sophisticated but hopefully illustrates the basics and some more powerful features of Ecto queries.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `ecto_queries` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:ecto_queries, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/ecto_queries](https://hexdocs.pm/ecto_queries).
-
+## Getting started
+1. Clone this repo
+2. Set up a local Postgres database and edit [the config](./config/config.exs)
+3. Run `mix install`
+4. Run `mix test` to see everything working correctly.
